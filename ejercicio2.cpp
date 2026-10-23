@@ -22,3 +22,16 @@ int main() {
                 sumaDivisores += i;
             }
         }
+        if (sumaDivisores == num) {
+            cout << num << ": perfecto (suma de divisores = " << sumaDivisores << ")\n";
+            perfectos++;
+        } 
+        else if (sumaDivisores > num) {
+            cout << num << ": abundante (suma de divisores = " << sumaDivisores << ")\n";
+            abundantes++;
+        } 
+        else {
+            cout << num << ": deficiente (suma de divisores = " << sumaDivisores << ")\n";
+            deficientes++;
+        }
+    }
