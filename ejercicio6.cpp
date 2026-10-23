@@ -27,3 +27,27 @@ int main() {
             tieneSimbolo = true;
         }
     }
+    if (tieneLargo && tieneMayus && tieneMinus && tieneDigito && tieneSimbolo) {
+        cout << "Contrasena valida..\n";
+    } else {
+        // Indicar exactamente qué requisitos incumple
+        if (!tieneLargo) {
+            cout << " Debe tener al menos 8 caracteres.\n";
+        }
+        if (!tieneMayus) {
+            cout << " Falta al menos una letra mayuscula.\n";
+        }
+        if (!tieneMinus) {
+            cout << " Falta al menos una letra minuscula.\n";
+        }
+        if (!tieneDigito) {
+            cout << " Falta al menos un digito.\n";
+        }
+        if (!tieneSimbolo) {
+            cout << " Falta al menos un simbolo.\n";
+        }
+        cout << "Contrasena invalida.\n";
+    }
+
+    return 0;
+}
