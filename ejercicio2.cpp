@@ -35,3 +35,9 @@ int main() {
             deficientes++;
         }
     }
+    cout << "Perfectos: " << perfectos 
+         << ", abundantes: " << abundantes 
+         << ", deficientes: " << deficientes << endl;
+
+    return 0;
+}
