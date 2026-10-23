@@ -18,3 +18,21 @@ int main() {
     cin >> caracter;
 
     int centro = n / 2;
+    for (int i = 0; i < n; i++) {
+        int distancia = i - centro;
+        if (distancia < 0) {
+            distancia = -distancia;
+        }
+        int espacios = distancia;
+        int simbolos = n - (2 * distancia);
+        for (int j = 0; j < espacios; j++) {
+            cout << " ";
+        }
+        for (int j = 0; j < simbolos; j++) {
+            cout << caracter;
+        }
+        cout << "\n";
+    }
+
+    return 0;
+}
