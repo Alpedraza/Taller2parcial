@@ -15,3 +15,10 @@ int main() {
     int perfectos = 0;
     int abundantes = 0;
     int deficientes = 0;
+    for (int num = a; num <= b; num++) {
+        int sumaDivisores = 0;
+        for (int i = 1; i < num; i++) {
+            if (num % i == 0) {
+                sumaDivisores += i;
+            }
+        }
