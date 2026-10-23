@@ -35,3 +35,11 @@ int main() {
             otros++;
         }
     }
+    cout << "Vocales: " << vocales << "\n";
+    cout << "Consonantes: " << consonantes << "\n";
+    cout << "Digitos: " << digitos << "\n";
+    cout << "Espacios: " << espacios << "\n";
+    cout << "Otros simbolos: " << otros << "\n";
+
+    return 0;
+}
