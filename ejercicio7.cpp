@@ -38,3 +38,7 @@ int main() {
             resultado += c;
         }
     }
+    cout << "Resultado: " << resultado << "\n";
+
+    return 0;
+}
