@@ -70,3 +70,12 @@ int main() {
                 descompressed += letra;
             }
         }
+        if (!formatoValido) {
+            cout << "Formato invalido.\n";
+        } else {
+            cout << "Descomprimida: " << descompressed << "\n";
+        }
+    }
+
+    return 0;
+}
