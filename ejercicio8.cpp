@@ -37,3 +37,9 @@ int main() {
             maxvaloralc = valorMaxActual;
         }
     }
+    cout << "Numero con la secuencia mas larga: " << mejornumero << "\n";
+    cout << "Pasos: " << maxpasos << "\n";
+    cout << "Valor maximo alcanzado: " << maxvaloralc << "\n";
+
+    return 0;
+}
