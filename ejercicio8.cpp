@@ -11,7 +11,7 @@ int main() {
         cout << "Valor invalido. N debe ser mayor o igual a 1.\n";
         return 0;
     }
-
+// En este tuve que hacer algunos calculos a mano porque ni idea que era la secuencia de Collatz y no me cuadraba (me paso el corte pasado con la de fibonnacci)
     int mejornumero = 1;
     int maxpasos = -1;
     long long maxvaloralc = 1;

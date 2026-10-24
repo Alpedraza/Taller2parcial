@@ -24,6 +24,6 @@ int main() {
         }
         cout << "\n";
     }
-
+// la impresion me quedo un poco torcida creo...
     return 0;
 }

@@ -23,7 +23,7 @@ int main() {
     string resultado = "";
     for (char c : mensaje) {
         if (c >= 'A' && c <= 'Z') {
-            // Manejo de letras mayúsculas
+            // Manejo de letras mayúsculas ( me tocó hacerlas por separado, no pude unirlas a ambas ;-(  )
             int pos = c - 'A';
             int nuevaPos = ((pos + k) % 26 + 26) % 26;
             resultado += (char)('A' + nuevaPos);

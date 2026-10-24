@@ -30,7 +30,7 @@ int main() {
     if (tieneLargo && tieneMayus && tieneMinus && tieneDigito && tieneSimbolo) {
         cout << "Contrasena valida..\n";
     } else {
-        // Indicar exactamente qué requisitos incumple
+        // Indicar exactamente qué requisitos incumple (me tocó arreglar los nombres porque me confundia con abreviaturas XD )
         if (!tieneLargo) {
             cout << " Debe tener al menos 8 caracteres.\n";
         }

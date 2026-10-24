@@ -18,7 +18,7 @@ int main() {
         if (lower >= 'A' && lower <= 'Z') {
             lower = lower + 32;
         }
-
+// En esta parte las unifiqué para no tener que hacer dos veces lo mismo.
         if (lower == 'a' || lower == 'e' || lower == 'i' || lower == 'o' || lower == 'u') {
             vocales++;
         } 

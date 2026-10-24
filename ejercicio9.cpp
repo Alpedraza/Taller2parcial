@@ -40,7 +40,7 @@ int main() {
         string cadena;
         cout << "Cadena: ";
         getline(cin, cadena);
-
+// Aquí se complico y tuve que revisar algunas funciones de la biblioteca ;(.
         string descompressed = "";
         bool formatoValido = true;
         size_t i = 0;

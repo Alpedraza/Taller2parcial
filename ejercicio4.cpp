@@ -12,7 +12,7 @@ int main() {
         cout << "Numero fuera de rango. Debe ser entre 1 y 3999.\n";
         return 0;
     }
-
+// No tenía idea como se escribian los numeros grandes; solo se expresan sumando y restando las letras 
     int original = n;
     string romano = "";
     int miles = n / 1000;
