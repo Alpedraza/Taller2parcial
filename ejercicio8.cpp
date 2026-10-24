@@ -19,4 +19,21 @@ int main() {
         long long temp = i;
         int pasosActuales = 0;
         long long valorMaxActual = i;
-        
+        while (temp != 1) {
+            if (temp > valorMaxActual) {
+                valorMaxActual = temp;
+            }
+
+            if (temp % 2 == 0) {
+                temp = temp / 2;
+            } else {
+                temp = 3 * temp + 1;
+            }
+            pasosActuales++;
+        }
+        if (pasosActuales > maxpasos) {
+            maxpasos = pasosActuales;
+            mejornumero = i;
+            maxvaloralc = valorMaxActual;
+        }
+    }
