@@ -62,3 +62,11 @@ int main() {
                 num = num * 10 + (cadena[i] - '0');
                 i++;
             }
+            if (num <= 0) {
+                formatoValido = false;
+                break;
+            }
+            for (int j = 0; j < num; j++) {
+                descompressed += letra;
+            }
+        }
