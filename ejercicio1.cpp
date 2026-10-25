@@ -11,7 +11,7 @@ int main() {
     int espacios = 0;
     int otros = 0;
 
-    cout << "Ingrese una frase: ";
+    cout << "Ingrese una frase cualquiera: ";
     getline(cin, frase);
     for (char c : frase) {
         char lower = c;
